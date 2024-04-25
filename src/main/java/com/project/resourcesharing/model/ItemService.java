@@ -11,6 +11,6 @@ public class ItemService {
     String serviceId;
     String userId;
     String item_service;
-    String price;
+    Float price;
     boolean active;
 }
