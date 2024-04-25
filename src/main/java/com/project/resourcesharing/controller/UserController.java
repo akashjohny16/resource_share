@@ -30,7 +30,7 @@ public class UserController {
     @PostMapping("/signup")
     public String signUpUser(@RequestBody User user) throws UserAlreadyExistException {
         try {
-            log.info("add a user");
+            log.info("add a userssssss");
             Integer updatedCount = userService.signUpUser(user);
             System.out.println("updatedCount "+updatedCount);
             if(updatedCount ==1)
